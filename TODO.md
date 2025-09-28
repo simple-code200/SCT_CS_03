@@ -1,10 +1,8 @@
-# TODO: Real-Time Network Monitoring Setup
+# TODO for Basic Keystroke Logger
 
-## Steps to Complete
-- [x] Update requirements.txt to include scapy and streamlit
-- [x] Install dependencies
-- [x] Check for CNN model files (cnn_network_intrusion_final.h5, scaler_cnn_final.pkl, label_encoder_cnn_final.pkl)
-- [ ] If model files are missing, train the CNN model using train_network_intrusion_cnn.py (in progress)
-- [ ] Run the Streamlit app (app.py) with admin privileges for live monitoring
-- [ ] Provide usage instructions for real-time monitoring
-- [ ] Optionally, make improvements to app.py for better robustness
+## Steps to Complete:
+
+- [x] Update requirements.txt to add 'pynput==1.7.6'
+- [x] Create 'keystroke_logger.py' with the keystroke logging functionality
+- [x] Install dependencies: Run `pip install -r requirements.txt`
+- [x] Test the logger: Run `python keystroke_logger.py`, type some keys, press ESC to stop, and check 'keystrokes.log' for entries

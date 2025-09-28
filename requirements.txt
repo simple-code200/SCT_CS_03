@@ -9,3 +9,4 @@ scapy
 tensorflow
 matplotlib
 seaborn
+pynput==1.7.6
